@@ -243,9 +243,6 @@
   .button-1 {
     position: static;
   }
-  .content__container {
-    position: static;
-  }
   .content__container__text {
     margin-left: 5%;
     font-size: 85%;
