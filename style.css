@@ -216,13 +216,22 @@
 /* Media */
 
 @media (max-width: 996px) {
+  .sub-content1 {
+    font-size: 50px;
+  }
+  .sub-content2 {
+    line-height: 1.5;
+    font-size: 65px;
+  }
   .sub-content3 {
-    font-size: 25px;
+    font-size: 40px;
+    line-height: 1.5;
   }
   .content {
-    height: 40px;
+    font-size: 50px;
     position: relative;
-    width: 45%;
+    width: 50%;
+    z-index: -1;
   }
   .img-fluid {
     position: static;
@@ -234,10 +243,16 @@
   .button-1 {
     position: static;
   }
+  .content__container {
+    position: static;
+  }
   .content__container__text {
-    margin-left: 15%;
+    margin-left: 5%;
+    font-size: 85%;
   }
   .content__container__list__item {
-    margin-left: 15%;
+    margin-left: 10%;
+    line-height: 1;
+    font-size: 85%;
   } 
 }
