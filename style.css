@@ -216,6 +216,9 @@
 /* Media */
 
 @media (max-width: 996px) {
+  .sub-content3 {
+    font-size: 25px;
+  }
   .content {
     height: 40px;
     position: relative;
