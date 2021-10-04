@@ -149,7 +149,7 @@
 /*   top: 40px; */
 }
 .img-fluid {
-    height: auto;
+/*     height: auto; */
     width: 100%;
     position: relative;
     left: 0%;
