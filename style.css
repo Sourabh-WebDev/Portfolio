@@ -1,5 +1,5 @@
 .container-fluid {
-  padding: 9% 10% !important;
+  padding: 7% 10% 5% 10% !important;
 }
 .navbar {
   padding: 1% 5% !important;
@@ -131,8 +131,8 @@
 .sub-content2 {
   font-family: 'Oswald', sans-serif;
   line-height: 1.5;
-  font-size: 35px;
-  line-height: 40px;
+  font-size: 50px;
+  /* line-height: 40px; */
 }
 .sub-content3 {
   color: #8f8f8f;
@@ -146,10 +146,10 @@
   font-family: 'Pacifico', cursive;
   line-height: 1.5;
   position: relative;
-/*   top: 40px; */
+  /* top: 40px; */
 }
 .img-fluid {
-/*     height: auto; */
+    /* height: auto; */
     width: 100%;
     position: relative;
     left: 0%;
@@ -250,4 +250,98 @@
     line-height: 1;
     font-size: 85%;
   } 
+}
+/* section-Projects */
+
+#Projects {
+  padding: 1% 9% 5% 9%;
+}
+/* .Selected { */
+  /* text-align: left; */
+/* } */
+.head2-1 {
+  color: #8f8f8f;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+.head2-2 {
+  font-family: 'Oswald', sans-serif;
+  line-height: 1;
+  font-size: 60px;
+}
+/* ---------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+
+.module {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://images.squarespace-cdn.com/content/v1/5bb319458155124b4b708ce0/1627482763550-090MXOH0868X64LQJZXW/frontend-developer.jpg?format=1500w);
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+  margin: 5px 0 0 5px;
+  position: relative;
+}
+
+.top h2 {
+  color: white;
+  margin: 0;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.lr p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.mid h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 25px;
+  transform: translate(-50%, -50%);
+}
+
+.cap p {
+  padding: 20px;
+  color: white;
+  font: 38px 'Roboto', sans-serif;
+  margin: 0;
+}
+.top-1 h2 {
+  color: white;
+  margin: 0;
+  padding: 20px;
+  font-size: 40px;
+  width: 600px;
+}
+.module-1 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://static.businessworld.in/article/article_extra_large_image/1568720807_WAh3OT_Udemy.png);
+  background-size: cover;
+  width: 1102px;
+  height: 400px;
+  margin: 5px 0 0 5px;
+  position: relative;
 }
