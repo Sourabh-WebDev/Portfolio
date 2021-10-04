@@ -146,7 +146,7 @@
   font-family: 'Pacifico', cursive;
   line-height: 1.5;
   position: relative;
-  top: 40px;
+/*   top: 40px; */
 }
 .img-fluid {
     height: auto;
