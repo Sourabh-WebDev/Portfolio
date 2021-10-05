@@ -281,7 +281,7 @@
     ),
     url(https://images.squarespace-cdn.com/content/v1/5bb319458155124b4b708ce0/1627482763550-090MXOH0868X64LQJZXW/frontend-developer.jpg?format=1500w);
   background-size: cover;
-  width: 500px;
+  width: 100%;
   height: 400px;
   margin: 5px 0 0 5px;
   position: relative;
@@ -340,7 +340,7 @@
     ),
     url(https://static.businessworld.in/article/article_extra_large_image/1568720807_WAh3OT_Udemy.png);
   background-size: cover;
-  width: 1102px;
+  width: 100%;
   height: 400px;
   margin: 5px 0 0 5px;
   position: relative;
